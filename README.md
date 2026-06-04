@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # 🌊 FloodMap - Application Mobile Gestion Zones Inondables
+=======
+# Add documentation to README.md
+
+# floodmap
+>>>>>>> a72ffea10ad79c7d26485ad367ce542984943670
 
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)]()
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)]()

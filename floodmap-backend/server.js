@@ -37,9 +37,10 @@ app.use((req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`\n🚀 Serveur FloodMap lancé sur http://localhost:${PORT}`);
-  console.log('📍 Base de données connectée');
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`\n🚀 Serveur FloodMap lancé sur http://0.0.0.0:${PORT}`);
+  console.log(`📍 Accessible de l'émulateur via: http://10.0.2.4:${PORT}`);
+  console.log('✅ Base de données connectée');
   console.log('✅ API prête pour l\'émulateur Android Pixel 5\n');
 });
 
